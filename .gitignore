@@ -1,0 +1,50 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Datos (no se suben al repo)
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/bronze/cargadores_sec_raw.csv
+
+# Jupyter notebooks: checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Configuración local de VS Code (excepto la compartida)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Variables de entorno con secretos
+.env
+.env.local
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Distribución / build (por si acaso)
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
